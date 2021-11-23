@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TNEB" duration-ms="74843" started-at="2021-11-22T16:29:14Z" finished-at="2021-11-22T16:30:29Z">
+    <groups>
+    </groups>
+    <test name="Login_Validation" duration-ms="9877" started-at="2021-11-22T16:29:14Z" finished-at="2021-11-22T16:29:24Z">
+      <class name="in.irctc.test.irctcbase">
+        <test-method status="PASS" signature="readingproperties()[pri:0, instance:in.irctc.test.irctcbase@5622fdf]" name="readingproperties" is-config="true" duration-ms="17" started-at="2021-11-22T16:29:14Z" finished-at="2021-11-22T16:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingproperties -->
+        <test-method status="PASS" signature="base(java.lang.String)[pri:0, instance:in.irctc.test.irctcbase@5622fdf]" name="base" duration-ms="9820" started-at="2021-11-22T16:29:14Z" finished-at="2021-11-22T16:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+      </class> <!-- in.irctc.test.irctcbase -->
+    </test> <!-- Login_Validation -->
+    <test name="Login_Validation1" duration-ms="64934" started-at="2021-11-22T16:29:24Z" finished-at="2021-11-22T16:30:29Z">
+      <class name="in.irctc.test.irctcbase">
+        <test-method status="PASS" signature="readingproperties()[pri:0, instance:in.irctc.test.irctcbase@73ad2d6]" name="readingproperties" is-config="true" duration-ms="1" started-at="2021-11-22T16:29:24Z" finished-at="2021-11-22T16:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingproperties -->
+        <test-method status="PASS" signature="base(java.lang.String)[pri:0, instance:in.irctc.test.irctcbase@73ad2d6]" name="base" duration-ms="64929" started-at="2021-11-22T16:29:24Z" finished-at="2021-11-22T16:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+      </class> <!-- in.irctc.test.irctcbase -->
+    </test> <!-- Login_Validation1 -->
+  </suite> <!-- TNEB -->
+</testng-results>
