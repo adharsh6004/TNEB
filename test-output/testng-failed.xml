@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TNEB]" parallel="tests">
-  <test thread-count="5" name="Login_Validation(failed)" parallel="tests">
-    <parameter name="Browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TNEB]">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="LoginValidation(failed)">
     <classes>
-      <class name="in.irctc.test.irctcbase">
+      <class name="in.irctc.test.logintest">
         <methods>
           <include name="readingproperties"/>
-          <include name="base" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="base"/>
         </methods>
-      </class> <!-- in.irctc.test.irctcbase -->
+      </class> <!-- in.irctc.test.logintest -->
     </classes>
-  </test> <!-- Login_Validation(failed) -->
+  </test> <!-- LoginValidation(failed) -->
 </suite> <!-- Failed suite [TNEB] -->

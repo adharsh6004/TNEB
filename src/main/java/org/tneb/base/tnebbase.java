@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.tneb.properties.Readproperties;
@@ -16,7 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class tnebbase extends Readproperties {
 	protected static WebDriver driver;
 	@Parameters("Browser")
-	@Test
+	@BeforeClass
 	public void base(String Browser)
 	{
 		
