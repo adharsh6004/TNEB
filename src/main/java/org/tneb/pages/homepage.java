@@ -12,6 +12,7 @@ public class homepage extends tnebbase {
 		WebElement logout = driver.findElement(By.xpath("//span[text()='Logout']"));
 		Actions mouse = new Actions(driver);
 		mouse.moveToElement(logout).click().perform();
+		System.out.println("more");
 	}
 }
 
